@@ -37,7 +37,8 @@ Grab the latest build from the **[Releases page »](https://github.com/Wire-Wolf
 
 | Platform | File | How to run |
 |---|---|---|
-| **Windows** | `Prowl-x.x.x-portable.exe` | Double-click — no installer, no setup |
+| **Windows** (recommended) | `Prowl-Setup-x.x.x.exe` | Installs Prowl — adds a Start Menu + desktop shortcut so you can reopen it anytime |
+| **Windows** (portable) | `Prowl-x.x.x-portable.exe` | Runs without installing — a single double-click file (great for a USB stick) |
 | **macOS** | `Prowl-x.x.x.dmg` | Open the dmg, drag Prowl to Applications |
 
 ### First launch (a one-time OS prompt)
