@@ -1,0 +1,51 @@
+PROWL — Proprietary Software License
+Copyright © 2026 WireWolf. All rights reserved.
+
+PROWL ("the Software") — including its source code, compiled applications,
+assets, branding, and documentation — is the exclusive property of WireWolf and
+is protected by copyright and other intellectual-property laws. The Software is
+licensed, not sold.
+
+1. LICENSE GRANT
+   WireWolf grants you a limited, personal, non-exclusive, non-transferable,
+   revocable license to download and run the official compiled Software for your
+   own lawful, authorized security-testing purposes only.
+
+2. RESTRICTIONS
+   You may NOT, in whole or in part:
+   (a) sell, resell, rent, lease, sublicense, distribute, publish, or otherwise
+       make the Software available to any third party;
+   (b) copy, modify, adapt, translate, or create derivative works of the Software;
+   (c) reverse-engineer, decompile, disassemble, or otherwise attempt to derive
+       the source code, except to the limited extent applicable law expressly
+       forbids this restriction;
+   (d) incorporate, embed, integrate, or bundle the Software or any portion of it
+       into any other software, product, or service, whether free or commercial;
+   (e) use the Software, or any part of it, to build a competing product; or
+   (f) remove, obscure, or alter any proprietary notice, branding, or label.
+
+3. OWNERSHIP
+   WireWolf retains all right, title, and interest in and to the Software. No
+   rights are granted to you except as expressly stated in this License.
+
+4. AUTHORIZED USE ONLY
+   You may use the Software only against systems that you own or are explicitly
+   authorized in writing to assess. You are solely responsible for your use of
+   the Software and for compliance with all applicable laws.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL WIREWOLF BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR
+   IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+   This License terminates automatically and immediately if you breach any of its
+   terms. Upon termination you must cease all use of the Software and destroy all
+   copies in your possession or control.
+
+For licensing inquiries, contact WireWolf.

@@ -19,7 +19,7 @@
 
 <p>
   <img alt="Windows and macOS" src="https://img.shields.io/badge/Windows_·_macOS-3b3f45?style=flat-square&labelColor=0a0b0d">
-  <img alt="Free" src="https://img.shields.io/badge/free-aaff00?style=flat-square&labelColor=0a0b0d">
+  <img alt="Free to use" src="https://img.shields.io/badge/free_to_use-aaff00?style=flat-square&labelColor=0a0b0d">
   <img alt="Needs Docker running" src="https://img.shields.io/badge/needs-Docker_running-2496ED?style=flat-square&logo=docker&logoColor=white">
 </p>
 
@@ -40,21 +40,55 @@ Grab the latest build from the **[Releases page »](https://github.com/Wire-Wolf
 | **Windows** | `Prowl-x.x.x-portable.exe` | Double-click — no installer, no setup |
 | **macOS** | `Prowl-x.x.x.dmg` | Open the dmg, drag Prowl to Applications |
 
-## Requirements
+### First launch (a one-time OS prompt)
 
-- **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** installed and running — powers the Kali toolbox via the app's one-click **"Pull Pre-built"** button.
-- Everything else (terminals, notes, findings, timeline) works with **no** setup at all.
+PROWL isn't code-signed yet, so your OS shows a **one-time** "unknown developer" prompt:
 
-## First launch
+- **Windows** — SmartScreen appears → click **More info → Run anyway**.
+- **macOS** — Gatekeeper blocks it → open **System Settings → Privacy &amp; Security → Open Anyway**, or run `xattr -cr /Applications/Prowl.app` in Terminal, then open it.
 
-PROWL isn't code-signed yet, so your OS shows a **one-time** prompt:
+---
 
-- **Windows** — SmartScreen *"unknown publisher"* → click **More info → Run anyway**.
-- **macOS** — Gatekeeper blocks it → **System Settings → Privacy &amp; Security → Open Anyway**, or run `xattr -cr /Applications/Prowl.app` in Terminal, then open it.
+## 🐉 Set up the Kali toolbox
+
+PROWL runs 30+ pentest tools (nmap, gobuster, sqlmap, hydra, …) inside a ready-made Kali container — **you don't install any tools yourself.**
+
+1. Install **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** and make sure it is **running** (you'll see the whale icon in your tray/menu bar).
+2. In PROWL, click the **Kali icon** in the title bar.
+3. Click **"Pull Pre-built"** — this downloads the ready-made Kali image **once** (a few minutes). No building, no configuration.
+4. Open a **Kali terminal tab** — the full toolbox is ready to go.
+
+> Only need the basics? PROWL's local terminal, notes, findings, and timeline all work **without** Docker. Docker is only for the bundled Kali tools.
+
+## 🤖 Set up the AI co-pilot
+
+On first launch, PROWL walks you through a short setup. Choose **one** of three:
+
+### 🟢 Local AI (Ollama) — free &amp; private · *recommended for most*
+Runs entirely on your machine — no account, no API key, no cost.
+1. Install **[Ollama](https://ollama.com/download)**.
+2. Download a model — in a terminal, run: `ollama pull llama3.1`
+3. In PROWL's onboarding (or **Settings**), choose **Local (Ollama)** and pick your model.
+
+### 🔵 Claude — most capable · *needs an API key (pay-as-you-go)*
+The smartest option, billed by Anthropic for what you use.
+1. Create an account at **[console.anthropic.com](https://console.anthropic.com/)**, add a payment method, and create an **API key**.
+2. In PROWL → **Settings**, set the provider to **Anthropic** and paste your key.
+
+### ⚪ No AI
+Skip it and use PROWL as a pure operator terminal + note-taking tool.
+
+*You can change your choice anytime in **Settings**.*
+
+---
 
 ## Updates
 
 PROWL shows an in-app **"Update available"** banner when a newer build lands — click it to download the new file. (Portable / dmg builds don't self-install.)
+
+## License
+
+PROWL is **proprietary software** — see **[LICENSE](LICENSE)**. You may download and run the official app for authorized security testing, but you may **not** copy, modify, reverse-engineer, resell, redistribute, or bundle it into any other software or product.
 
 <br>
 
