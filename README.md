@@ -97,6 +97,44 @@ Skip it and use PROWL as a pure operator terminal + note-taking tool.
 
 ---
 
+## ⌨️ Commands
+
+PROWL turns a few plain words typed at the **start of any terminal line** into shortcuts — no slashes, no menus. Type **`help`** at any time to see the full list inside the app.
+
+**Target & recon**
+| Command | What it does |
+|---|---|
+| `target <ip>` | Set the primary target IP — wakes the AI's memory for that box |
+
+**AI co-pilot**
+| Command | What it does |
+|---|---|
+| `ask <question>` | Ask the AI assistant |
+| `hack help` | AI pentest methodology guidance |
+| `add last <tool>` | Send your last command's output to the AI for analysis |
+| `commands <tool>` | Show common commands for a tool (nmap, gobuster, …) |
+
+**Notes & notebooks**
+| Command | What it does |
+|---|---|
+| `note <text>` | Save a quick note (appends to the active notebook) |
+| `note #<n> <text>` | Append to note number *n* |
+| `notes add <text>` | Append to the active notebook or latest note |
+| `notebook <name>` | Set the active notebook for this session |
+| `notebook new <name>` | Start a fresh notebook |
+| `notebook close` | Stop writing to the active notebook |
+| `search <term>` | Search your notes |
+| `export notes` | Export all notes to a `.md` file |
+
+**See everything**
+| Command | What it does |
+|---|---|
+| `help` | Show the full command reference inside PROWL |
+
+> Example: type `target 10.10.10.5`, then `ask what should I enumerate first?`
+
+---
+
 ## Updates
 
 PROWL shows an in-app **"Update available"** banner when a newer build lands — click it to download the new file. (Portable / dmg builds don't self-install.)
