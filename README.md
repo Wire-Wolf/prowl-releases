@@ -60,6 +60,21 @@ PROWL runs 30+ pentest tools (nmap, gobuster, sqlmap, hydra, …) inside a ready
 
 > Only need the basics? PROWL's local terminal, notes, findings, and timeline all work **without** Docker. Docker is only for the bundled Kali tools.
 
+## 🔒 Connect to a VPN (HackTheBox, labs, PortSwigger, …)
+
+To reach a lab network like **HackTheBox**, load your `.ovpn` file into PROWL. The VPN runs **inside the Kali container**, so your Kali terminals route straight to the target box — no host network config, no fiddling with OpenVPN yourself.
+
+1. **Start the Kali container first** — the VPN needs it running. Click the **Kali icon** in the title bar and start the container (see above).
+2. **Download your `.ovpn`** from the lab. On HackTheBox: **Connections → download the VPN pack** (`.ovpn`).
+3. In PROWL, click the **shield / VPN icon** at the far right of the title bar to open the VPN panel.
+4. Click **"Upload .ovpn file"** and pick your config — it opens a normal file picker.
+5. **Click the file in the list to connect** (the file row *is* the connect button). It takes ~15 seconds; when it shows **"Connected — &lt;ip&gt;"** and the shield turns green, you're on the VPN.
+6. Open a **Kali terminal tab** — it's now on the lab network. Go ahead and `ping` / `nmap` your target.
+
+Switch machines or regions by clicking a different `.ovpn`; disconnect with the **Disconnect** button.
+
+> Works on **Windows &amp; macOS** out of the box — PROWL creates the tunnel device inside the container for you (that's why the Kali container needs to be running first).
+
 ## 🤖 Set up the AI co-pilot
 
 On first launch, PROWL walks you through a short setup. Choose **one** of three:
