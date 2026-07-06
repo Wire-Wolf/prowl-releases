@@ -29,7 +29,7 @@
 
 ## What is PROWL?
 
-A desktop app that keeps pentesters **in flow**. Real terminals (local + a one-click Kali container), an AI co-pilot with **persistent per-target memory**, auto-journaling after key commands, a findings tracker, methodology checklists, a credential vault, and clean engagement notes — so you never lose context between sessions.
+A desktop app, provided by WireWolf Inc., that keeps pentesters **in flow**. Real terminals (local + a one-click Kali container), an AI co-pilot with **persistent per-target memory**, auto-journaling after key commands, a findings tracker, methodology checklists, a credential vault, and clean engagement notes — so you never lose context between sessions.
 
 ## ⬇&nbsp; Download &amp; run
 
