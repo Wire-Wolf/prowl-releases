@@ -46,7 +46,7 @@ Grab the latest build from the **[Releases page »](https://github.com/Wire-Wolf
 PROWL isn't code-signed yet, so your OS shows a **one-time** "unknown developer" prompt:
 
 - **Windows** — SmartScreen appears → click **More info → Run anyway**.
-- **macOS** — Gatekeeper blocks it → open **System Settings → Privacy &amp; Security → Open Anyway**, or run `xattr -cr /Applications/Prowl.app` in Terminal, then open it.
+- **macOS** — Gatekeeper blocks it → open **System Settings → Privacy &amp; Security → Open Anyway**, or run `xattr -d com.apple.quarantine /Volumes/Prowl/Prowl.app` in Terminal, then open it.
 
 ---
 
